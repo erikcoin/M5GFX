@@ -159,8 +159,7 @@ static float epd_board_ambient_temperature() {
 static void set_vcom(int value) {
 }
 
-#endif
-#endif
+
 
 #else
 
