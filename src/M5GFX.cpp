@@ -3,7 +3,7 @@
 
 #include "M5GFX.h"
 
-#if defined ( ESP_PLATFORM )
+//#if defined ( ESP_PLATFORM )
 
 #include <cstdint>
 #include <sdkconfig.h>
@@ -24,10 +24,10 @@
 #include "lgfx/v1/touch/Touch_FT5x06.hpp"
 #include "lgfx/v1/touch/Touch_GT911.hpp"
 
-#if defined ( CONFIG_IDF_TARGET_ESP32S3 )
+//#if defined ( CONFIG_IDF_TARGET_ESP32S3 )
 
 // for M5PaperS3
-#if __has_include (<epdiy.h>) && defined (CONFIG_ESP32S3_SPIRAM_SUPPORT) && defined (CONFIG_SPIRAM_MODE_OCT)
+//#if __has_include (<epdiy.h>) && defined (CONFIG_ESP32S3_SPIRAM_SUPPORT) && defined (CONFIG_SPIRAM_MODE_OCT)
 
 extern "C" {
   #include <epdiy.h>
