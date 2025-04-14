@@ -161,12 +161,12 @@ static void set_vcom(int value) {
 
 
 
-#else
+
 
 #include "lgfx/v1/platforms/sdl/Panel_sdl.hpp"
 #include "picture_frame/picture_frame.h"
 
-#endif
+
 
 namespace m5gfx
 {
