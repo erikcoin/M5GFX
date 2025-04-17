@@ -1387,9 +1387,9 @@ namespace m5gfx
 #if !__has_include (<epdiy.h>)
               ESP_LOGE(LIBRARY_NAME, "M5PaperS3 need install EPDiy library");
 #elif !(defined(CONFIG_ESP32S3_SPIRAM_SUPPORT))
-              ESP_LOGE(LIBRARY_NAME, "M5PaperS3 need OPI-PSRAM enabled");
+              ESP_LOGE(LIBRARY_NAME, "M5PaperS3 need OPI-PSRAM enabled1");
 #elif !defined (CONFIG_SPIRAM_MODE_OCT)
-              ESP_LOGE(LIBRARY_NAME, "M5PaperS3 need OPI-PSRAM enabled");
+              ESP_LOGE(LIBRARY_NAME, "M5PaperS3 need OPI-PSRAM enabled2");
 #else
               auto p = new lgfx::Panel_EPDiy();
               _panel_last.reset(p);
